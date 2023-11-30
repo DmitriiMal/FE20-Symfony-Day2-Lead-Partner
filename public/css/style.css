@@ -1,0 +1,15 @@
+.carousel-item img {
+  height: 95vh;
+}
+.carousel-item i {
+  font-size: 5rem;
+}
+
+.btn i {
+  font-size: 1rem;
+  margin: 0 10px;
+}
+
+.card img {
+  aspect-ratio: 1;
+}

@@ -6,13 +6,13 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
-class NewsnewsController extends AbstractController
+class NewsController extends AbstractController
 {
-    #[Route('/newsnews', name: 'app_newsnews')]
+    #[Route('/news', name: 'app_news')]
     public function index(): Response
     {
-        return $this->render('newsnews/index.html.twig', [
-            'controller_name' => 'NewsnewsController',
+        return $this->render('news/index.html.twig', [
+            'controller_name' => 'NewsController',
         ]);
     }
 }
