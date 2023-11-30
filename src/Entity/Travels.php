@@ -26,7 +26,7 @@ class Travels
     #[ORM\Column]
     private ?int $days = null;
 
-    #[ORM\Column(type: Types::DECIMAL, precision: 5, scale: 2)]
+    #[ORM\Column(type: Types::DECIMAL, precision: 5, scale: 1)]
     private ?string $price = null;
 
     #[ORM\Column]
